@@ -1,0 +1,100 @@
+body {
+	color: #383e45;
+	font-size: 0.9rem;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 4%;
+	text-align: center;
+}
+
+.icon h1{
+	font-size: 23px;
+	width: 100px;
+	color: white;
+	background-color: rgb(57, 62,70);
+	padding: 10px;
+}
+
+.text-box{
+	width: 300px;
+	height: 60px;
+	padding-right: 20px;
+}
+
+.text-box li a{
+	text-decoration: none;
+	display: block;
+	float: right;
+	color: black;
+	padding:  25px 15px;
+}
+
+.text-box li a:hover{
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+ul{
+	list-style: none;
+}
+
+.mainvisual{
+	width: 100%;
+	max-width: 1920px;
+	height: 600px;
+	object-fit: cover;
+}
+
+.heading{
+	padding-top: 60px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.heading h1{
+	font-size: 33px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+main .container{
+	padding-top: 60px;
+	height: 500px;
+	max-width: 960px;
+	margin: 0 auto 100px auto;
+	padding: 0 4%;
+	text-align: center;
+}
+
+.about {
+	height: 100px;
+	float: left;
+	border-radius: 50px;
+	margin-right: 30px;
+}
+
+.contents{
+	justify-content: center;
+	text-align: center;
+	padding-top: 60px;
+	display: block;
+}
+
+.profile-name h2{
+	float: left;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.profile-text p{
+	display: inline-block;
+
+}
+
